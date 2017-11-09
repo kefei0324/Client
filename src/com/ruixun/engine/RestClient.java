@@ -34,16 +34,26 @@ public interface RestClient {
 	@Post("/account/register?name={name}&pwd={pwd}&deviceId={deviceId}")
 	@Accept(MediaType.APPLICATION_JSON)
 	Account register(String name, String pwd, int deviceId);
+	// 注册关联设备
+	@Post("/account/register2?name={name}&pwd={pwd}&device={device}")
+	@Accept(MediaType.APPLICATION_JSON)
+	Account register(String name, String pwd, String device);
 
 	// 登陆关联设备
 	@Post("/account/login?name={name}&pwd={pwd}&deviceId={deviceId}")
 	@Accept(MediaType.APPLICATION_JSON)
 	Account login(String name, String pwd, int deviceId);
 
+	// 登陆关联设备
+	@Post("/account/login2?name={name}&pwd={pwd}&device={device}")
+	@Accept(MediaType.APPLICATION_JSON)
+	Account login(String name, String pwd, String device);
+
 	// 获取信息列表
 	@Post("/msg/getMsg?accountId={accountid}&deviceId={deviceid}&page={page}")
 	@Accept(MediaType.APPLICATION_JSON)
 	MessageList getMsgList(int accountid, int deviceid, int page);
+
 	// 获取信息列表
 	@Post("/msg/getMsgModleList?accountId={accountid}&deviceId={deviceid}&page={page}")
 	@Accept(MediaType.APPLICATION_JSON)
@@ -52,7 +62,7 @@ public interface RestClient {
 	// 获取信息及模板
 	@Post("/msg/getMsgModle?msgid={msgid}&userid={userid}")
 	@Accept(MediaType.APPLICATION_JSON)
-	MessageList getMsgModle(int msgid,int userid);
+	MessageList getMsgModle(int msgid, int userid);
 
 	// 修改用户操作设备权限
 	@Post("/account/modifyIdenity?accountid={accountid}&deviceid={deviceid}")

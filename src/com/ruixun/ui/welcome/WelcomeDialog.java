@@ -26,7 +26,7 @@ public class WelcomeDialog extends DialogFragment implements Runnable {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		View view=inflater.inflate(R.layout.fragment_welcome, container);
+		View view=inflater.inflate(R.layout.act_login, container);
 		return view;
 //		return super.onCreateView(inflater, container, savedInstanceState);
 	}

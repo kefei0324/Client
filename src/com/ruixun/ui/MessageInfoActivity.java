@@ -127,7 +127,7 @@ public class MessageInfoActivity extends BaseActivity
 	@Override
 	public void onLeftAction() {
 		// 返回登陆界面
-		HomeActivity2_.intent(this).action("reset_or_forget_login_name").start();
+		HomeActivity3_.intent(this).action("reset_or_forget_login_name").start();
 		finish();
 	}
 

@@ -5,7 +5,7 @@ public class Constants {
 //	public static final String ROOT_URL="http://192.168.0.8:8080/ruixun/api";//i都会
 //	public static final String ROOT_URL="http://192.168.0.136:8080/ruixun/api";//怡兴大厦
 //	public static final String ROOT_URL="http://192.168.0.115:8080/ruixun/api";//中兴
-//	public static final String ROOT_URL="http://192.168.1.102:8080/ruixun/api";
+//	public static final String ROOT_URL="http://192.168.1.247:8080/ruixun/api";
 	public static final String ROOT_URL="http://119.29.224.250:8080/ruixun/api";
 	public static final String APP_KEY_SHARED_PREFS = "com.ruixun";//存储偏好设置[key]
 	public static final String APP_KEY_INSTALLED = "APP_INSTALLED";//应用已安装  [key]

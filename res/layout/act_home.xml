@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    android:orientation="vertical"
+    tools:context=".ui.HomeActivity2" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.6" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/icon"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/tv_user"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/home_edit"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="输入用户名"
+            android:paddingLeft="10dp"
+            tools:ignore="NestedWeights,HardcodedText" />
+
+        <EditText
+            android:id="@+id/tv_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/home_edit"
+            android:drawableLeft="@drawable/pwd"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="输入密码"
+            android:paddingLeft="10dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/tv_mt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/home_edit"
+            android:drawableLeft="@drawable/mtg"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="输入设备编号"
+            android:paddingLeft="10dp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/btn_register"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_btn"
+                android:text="立即注册"
+                android:textColor="#000000"
+                tools:ignore="HardcodedText,ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="0dip"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_btn"
+                android:text="立即登录"
+                android:textColor="#000000"
+                tools:ignore="HardcodedText,ButtonStyle" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

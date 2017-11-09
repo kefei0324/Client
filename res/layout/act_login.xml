@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg" >
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp" >
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:src="@drawable/login_circle"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@drawable/matong"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="100dp"
+            tools:ignore="ContentDescription" 
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/cloud2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="健康“云”"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="80dp"
+            tools:ignore="ContentDescription" 
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/damen" />
+
+        <ImageView
+            android:layout_width="80dp"
+            tools:ignore="ContentDescription" 
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|left"
+            android:src="@drawable/dating" />
+
+        <ImageView
+            android:layout_width="80dp"
+            tools:ignore="ContentDescription" 
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/menlang" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="认准这片“云”!"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</FrameLayout>

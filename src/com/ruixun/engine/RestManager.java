@@ -134,7 +134,51 @@ public class RestManager extends BaseEngine {
 			listener.restFail(App.getInstance().getString(R.string.net_wrong));
 		}
 	}
+	/**
+	 * 注册并关联设备
+	 * 
+	 * @param name
+	 * @param pwd
+	 * @param currentDevice
+	 * @param listener
+	 */
+	@Background
+	public void register(String name, String pwd, String device, RestListener listener) {
+		try {
+			if (prepare(listener)) {
+				Account protocol = restClient.register(name, pwd, device);
+				notifyResult(listener, protocol);
+			} else {
+				listener.restFail(App.getInstance().getString(R.string.config_wrong));
+			}
+		} catch (Exception e) {
+			Log.e("restmanager", e.toString());
+			listener.restFail(App.getInstance().getString(R.string.net_wrong));
+		}
+	}
 
+	/**
+	 * 登陆关联的设备管理
+	 * 
+	 * @param name
+	 * @param pwd
+	 * @param currentDevice
+	 * @param restListener
+	 */
+	@Background
+	public void login(String name, String pwd, String device, RestListener listener) {
+		try {
+			if (prepare(listener)) {
+				Account protocol = restClient.login(name, pwd, device);
+				notifyResult(listener, protocol);
+			} else {
+				listener.restFail(App.getInstance().getString(R.string.config_wrong));
+			}
+		} catch (Exception e) {
+			Log.e("restmanager", e.toString());
+			listener.restFail(App.getInstance().getString(R.string.net_wrong));
+		}
+	}
 	/**
 	 * 登陆关联的设备管理
 	 * 
@@ -157,7 +201,6 @@ public class RestManager extends BaseEngine {
 			listener.restFail(App.getInstance().getString(R.string.net_wrong));
 		}
 	}
-
 	/**
 	 * 获取数据列表
 	 * 

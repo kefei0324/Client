@@ -3,7 +3,7 @@
     xmlns:actionbar="http://schemas.android.com/apk/res/com.ruixun"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pic_index_bg"
+    android:background="@drawable/home_bg"
     android:orientation="vertical" >
 
     <com.ruixun.widget.ActionBar_
@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         actionbar:left_enable="true"
-        actionbar:right_enable="false" >
+        actionbar:right_enable="false"
+        android:visibility="gone" >
     </com.ruixun.widget.ActionBar_>
 
     <com.ruixun.widget.SwipeRefreshUpAndDownLayout
@@ -33,18 +34,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dip"
-        android:background="@drawable/bg_welcome_ctrlbar"
+        android:background="#F7FAFD"
         android:gravity="center_vertical"
         android:orientation="horizontal" >
 
         <com.ruixun.widget.DelayButton_
             android:id="@+id/control_btn"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/delay_button_height_default"
-            android:layout_margin="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="9dip"
-            android:layout_marginRight="9dip"
-            android:background="@drawable/btn_bottombar"
+            android:layout_width="0dip"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/home_btn"
             android:text="@string/controll_device"
             android:textColor="@color/profile_bottom_text_color" />
     </LinearLayout>
