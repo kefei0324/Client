@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<!--     <lecho.lib.hellocharts.view.LineChartView -->
+<!--         android:id="@+id/charts_view" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_margin="@dimen/activity_horizontal_margin" -->
+<!--         android:visibility="visible" /> -->
+     <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/spread_line_chart"
+        android:layout_margin="@dimen/default_listview_divide"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dip" />
+     
+     <TextView android:id="@+id/pingjia"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/delay_button_height_default"
+         android:text="@string/pingjia_content"
+         android:layout_marginLeft="@dimen/default_listview_divide"
+         android:layout_marginRight="@dimen/default_listview_divide"/>
+
+</LinearLayout>

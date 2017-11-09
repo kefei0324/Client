@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res/com.ruixun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_index_bg"
+    android:orientation="vertical" >
+
+    <com.ruixun.widget.ActionBar_
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        actionbar:left_enable="false"
+        actionbar:right_enable="false">
+    </com.ruixun.widget.ActionBar_>
+
+    <Spinner
+        android:id="@+id/home_spinner"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical" />
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/account_controller"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/bg_welcome_ctrlbar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.ruixun.widget.DelayButton_
+            android:id="@+id/button_register"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/delay_button_height_default"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bottombar"
+            android:text="@string/register_button"
+            android:textColor="@color/profile_bottom_text_color" />
+
+        <com.ruixun.widget.DelayButton_
+            android:id="@+id/button_login"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/delay_button_height_default"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bottombar"
+            android:text="@string/login_button"
+            android:textColor="@color/profile_bottom_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

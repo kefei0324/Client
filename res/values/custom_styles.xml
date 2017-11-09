@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- style of delaybutton -->
+    <style name="default_delay_button_style">
+        <item name="android:layout_height">@dimen/delay_button_height_default</item>
+        <item name="android:textColor">@color/white_default</item>
+        <item name="android:background">@color/orange_default</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>

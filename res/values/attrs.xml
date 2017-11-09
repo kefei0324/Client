@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- round_image -->
+    <declare-styleable name="round_image">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color" />
+    </declare-styleable>
+    <!-- custom_actionbar -->
+    <declare-styleable name="custom_actionbar">
+        <attr name="title_text" format="string" />
+        <attr name="right_text" format="string" />
+        <!-- <attr name="title_actionbar" format="dimension" /> -->
+        <attr name="left_enable" format="boolean" />
+        <attr name="right_enable" format="boolean" />
+    </declare-styleable>
+
+</resources>

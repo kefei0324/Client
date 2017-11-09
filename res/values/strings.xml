@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"健康管理洁具"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- home_activity -->
+    <string-array name="home_array">
+        <item>"延迟按钮"</item>
+        <item>"圆形图片"</item>
+        <item>"自定义标签"</item>
+        <item>"测试annotations"</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <!-- delay_button_activity -->
+    <string name="delay_button_1">delay_button_1</string>
+    <string name="delay_button_2">delay_button_2</string>
+    <string name="delay_button_3">delay_button_3</string>
+    <string name="delay_button_4">delay_button_4</string>
+    <string name="delay_button_5">delay_button_5</string>
+    <string name="delay_button_test">delay_button_test</string>
+
+    <!-- test -->
+    <string name="activity_home">"HOME"</string>
+    <string name="no_network">"没有网络！请重试"</string>
+    <string name="error_request">"请求失败！请重试"</string>
+    <string name="cancle_base">"取消"</string>
+    <string name="forget_pwd">"忘记密码"</string>
+    <string name="confrim_base">"确定"</string>
+    <string name="confrim_base_tip">"确认操作？"</string>
+    <string name="hint_debug_ip">"测试用用IP地址"</string>
+
+    <!-- action_bar -->
+    <string name="right_text_default">"确定"</string>
+    <string name="title_text_default">@string/app_name</string>
+
+    <!-- account -->
+    <string name="hint_register_name">"账号"</string>
+    <string name="hint_regsiter_pwd">"密码(最少6位)"</string>
+    <string name="hint_regsiter_new_pwd">"新密码(最少6位)"</string>
+    <string name="hint_regsiter_old_pwd">"旧密码(最少6位)"</string>
+    <string name="register_button">"注册账号"</string>
+    <string name="login_button">"登陆"</string>
+    <string name="reset_pwd_button">"重置密码"</string>
+    <string name="reset_forget_button">"忘记密码"</string>
+    <!-- device -->
+    <string name="device_selected_tip">"选择设备"</string>
+    <string name="no_device">"请先选择设备"</string>
+
+    <!-- restmanager -->
+    <string name="progress_on">"请稍等.."</string>
+    <string name="net_wrong">"网络异常,请重试"</string>
+    <string name="config_wrong">"请求异常,请重试"</string>
+
+    <!--  -->
+    <string name="load_base">"加载中.."</string>
+    <string name="cha_xun">"查\n询"</string>
+    <string name="fen_xi">"分\n析"</string>
+    <string name="ping_jia">"评\n价"</string>
+    <string name="controll_device">"控制设备"</string>
+    <string name="create_devicename">"创建设备编号"</string>
+    <string name="create_devicedes">"创建设备描述(ip地址)"</string>
+    <string name="create_device">"创建设备"</string>
+    <string name="identity_confirm">"释放操作权限？"</string>
+    <string name="device_list">"设备列表"</string>
+
+    <!--  -->
+    <string name="item_account_name">"用户名：%s"</string>
+    <string name="item_account_update_time">"创建日期：%s"</string>
+    <string name="confirm_delete_account">"删除该用户？"</string>
+
+    <!--  -->
+    <string name="item_device_ip">"设备地址：%s"</string>
+    <string name="item_device_name">"设备编号：%s"</string>
+    <string name="item_device_update_time">"创建日期：%s"</string>
+    <string name="confirm_delete_device">"删除该设备？"</string>
+    <!--  -->
+    <string name="item_msg_device_name">"设备编号：%s"</string>
+    <string name="item_msg_update_time">"上传日期：%s"</string>
+    <string name="item_msg_data_1">"PH值：          %s"</string>
+    <string name="item_msg_data_2">"亚硝酸盐：  %s"</string>
+    <string name="item_msg_data_3">"葡萄糖：      %s"</string>
+    <string name="item_msg_data_4">"维生素：      %s"</string>
+    <string name="item_msg_data_5">"尿比重：      %s"</string>
+    <string name="item_msg_data_6">"隐血：          %s"</string>
+    <string name="item_msg_data_7">"蛋白质：      %s"</string>
+    <string name="item_msg_data_8">"胆红素：      %s"</string>
+    <string name="item_msg_data_9">"尿胆原 ：     %s"</string>
+    <string name="item_msg_data_10">"酮体：          %s"</string>
+    <string name="item_msg_data_11">"白细胞：      %s"</string>
+    <!-- 评价相关 -->
+    <string name="pingjia_content">"评价：%s"</string>
+    <string name="pingjia_1">"您的健康等级：优"</string>
+    <string name="pingjia_2">"您的健康等级：中"</string>
+    <string name="pingjia_3">"您需要注意身体了！"</string>
+    <!-- 设备按钮 -->
+	<string name="item_1_btn_up">""</string>
+	<string name="item_1_btn_centure">"A"</string>
+	<string name="item_1_btn_down">""</string>
+	<string name="item_2_btn_up">""</string>
+	<string name="item_2_btn_centure">"B"</string>
+	<string name="item_2_btn_down">""</string>
+	<string name="item_3_btn_up">""</string>
+	<string name="item_3_btn_centure">"C"</string>
+	<string name="item_3_btn_down">""</string>
+	
+
+</resources>

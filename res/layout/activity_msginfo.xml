@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res/com.ruixun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_index_bg"
+    android:orientation="vertical" >
+
+    <com.ruixun.widget.ActionBar_
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        actionbar:left_enable="true"
+        actionbar:right_enable="false" >
+    </com.ruixun.widget.ActionBar_>
+
+    <com.ruixun.widget.SwipeRefreshUpAndDownLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:background="@drawable/rectancle_back" >
+
+        <ListView
+            android:id="@+id/msg_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" >
+        </ListView>
+    </com.ruixun.widget.SwipeRefreshUpAndDownLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/bg_welcome_ctrlbar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.ruixun.widget.DelayButton_
+            android:id="@+id/control_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/delay_button_height_default"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:background="@drawable/btn_bottombar"
+            android:text="@string/controll_device"
+            android:textColor="@color/profile_bottom_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

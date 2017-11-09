@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.ruixun"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.ruixun.widget.ActionBar_
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:left_enable="true"
+        custom:right_enable="false"
+        custom:right_text="@string/right_text_default"
+        custom:title_text="@string/title_text_default" >
+    </com.ruixun.widget.ActionBar_>
+
+</LinearLayout>

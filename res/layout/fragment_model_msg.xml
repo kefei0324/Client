@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.ruixun.widget.SwipeRefreshUpAndDownLayout_
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/rectancle_back" >
+
+        <ListView
+            android:id="@+id/msg_model_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" >
+        </ListView>
+    </com.ruixun.widget.SwipeRefreshUpAndDownLayout_>
+
+</LinearLayout>

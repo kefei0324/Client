@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res/com.ruixun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_index_bg"
+    android:orientation="vertical" >
+
+    <com.ruixun.widget.ActionBar_
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        actionbar:right_text="@string/create_device"
+        actionbar:left_enable="true"
+        actionbar:right_enable="true" >
+    </com.ruixun.widget.ActionBar_>
+
+    <ListView
+        android:id="@+id/device_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_listview_divide"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/rectancle_back" >
+    </ListView>
+
+</LinearLayout>

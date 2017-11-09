@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.ruixun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.ruixun.widget.ActionBar_
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:left_enable="true"
+        custom:right_enable="true"
+        custom:right_text="@string/right_text_default"
+        custom:title_text="@string/title_text_default" >
+    </com.ruixun.widget.ActionBar_>
+
+    <com.ruixun.widget.DelayButton_
+        android:id="@+id/delay_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/delay_button_1" />
+
+    <com.ruixun.widget.DelayButton_
+        android:id="@+id/delay_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/delay_button_2" />
+
+    <com.ruixun.widget.DelayButton_
+        android:id="@+id/delay_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/delay_button_3" />
+
+    <com.ruixun.widget.DelayButton_
+        android:id="@+id/delay_button_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/delay_button_4" />
+
+    <com.ruixun.widget.DelayButton_
+        android:id="@+id/delay_button_5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:text="@string/delay_button_5" />
+
+</LinearLayout>

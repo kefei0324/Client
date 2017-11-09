@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:hint="@string/hint_register_name"
+        android:inputType="textPersonName"
+        android:maxEms="20"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/delay_button_height_default"
+        android:hint="@string/hint_regsiter_pwd"
+        android:inputType="textPassword"
+        android:minEms="6"
+        android:singleLine="true" />
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/login_controller" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="70dip" -->
+<!--         android:background="@drawable/bg_welcome_ctrlbar" -->
+<!--         android:gravity="center_vertical" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <com.ruixun.widget.DelayButton_ -->
+<!--             android:id="@+id/button_forget_pwd" -->
+<!--             android:layout_width="0dip" -->
+<!--             android:layout_height="@dimen/delay_button_height_default" -->
+<!--             android:layout_marginLeft="9dip" -->
+<!--             android:layout_marginRight="9dip" -->
+<!--             android:layout_weight="1" -->
+<!--             android:background="@drawable/btn_bottombar" -->
+<!--             android:text="@string/register_button" -->
+<!--             android:textColor="@color/profile_bottom_text_color" /> -->
+
+<!--         <com.ruixun.widget.DelayButton_ -->
+<!--             android:id="@+id/button_reset_pwd" -->
+<!--             android:layout_width="0dip" -->
+<!--             android:layout_height="@dimen/delay_button_height_default" -->
+<!--             android:layout_marginLeft="9dip" -->
+<!--             android:layout_marginRight="9dip" -->
+<!--             android:layout_weight="1" -->
+<!--             android:background="@drawable/btn_bottombar" -->
+<!--             android:text="@string/login_button" -->
+<!--             android:textColor="@color/profile_bottom_text_color" /> -->
+<!--     </LinearLayout> -->
+</LinearLayout>
