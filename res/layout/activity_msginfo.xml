@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         actionbar:left_enable="true"
         actionbar:right_enable="false"
-        android:visibility="gone" >
+        android:visibility="visible" >
     </com.ruixun.widget.ActionBar_>
 
     <com.ruixun.widget.SwipeRefreshUpAndDownLayout

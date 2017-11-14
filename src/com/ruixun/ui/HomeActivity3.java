@@ -72,6 +72,7 @@ public class HomeActivity3 extends BaseActivity
 	protected void loadData() {
 		String action = getIntent().getAction();
 		if ("reset_or_forget_login_name".equals(action)) {
+			return;
 		} else {
 			welcome = new WelcomeDialog();
 			welcome.show(getFragmentManager(), "welcome");
